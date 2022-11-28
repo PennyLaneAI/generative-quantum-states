@@ -1,0 +1,15 @@
+numpy
+torch
+pennylane
+pennylane-lightning
+tqdm
+scipy
+joblib
+matplotlib
+seaborn
+scikit-learn
+pandas
+tensorboard
+qutip
+jax
+neural-tangents

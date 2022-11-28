@@ -1,0 +1,1 @@
+{"lr": 0.001, "wd": 0.0, "bs": 100, "dropout": 0.1, "final_lr": 1e-07, "lr_scheduler": "warmup_cosine", "warmup_frac": 0.05}
