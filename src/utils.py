@@ -120,14 +120,14 @@ def plot_phase_diagram(df, figsize=(4.1, 4.5), title=None, train_idxes=None,
     assert np.all(counts == counts[0])
     n_detuning = counts[0]
 
-    marker_colors = ['gray', 'darkorange', 'tab:green', 'blueviolet']
+    marker_colors = ['gray', 'gold', 'tab:green', 'indigo']
     marker_colors = np.array([matplotlib.colors.to_rgb(color) for color in marker_colors])
 
     order_params = hue_order
     im = np.zeros((len(df), 4))
 
     background_color = marker_colors[0]
-    background_alpha = 0.2
+    background_alpha = 0.075
     channel_colors = np.array([marker_colors[C] for i, C in enumerate([1, 2, 3, ])])
     phases = df['phase'].values
     background_idxes = np.argwhere(phases == 'Disordered').flatten()
