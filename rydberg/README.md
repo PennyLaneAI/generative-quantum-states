@@ -4,8 +4,12 @@ This folder contains our code to simulate Rydberg atom systems (1D and 2D), with
 ![Rydberg-demo](../resources/figures/Rydberg-demo.png)
 
 ## Installation
-In order to run the simulation, you need to install some required Julia packages - we provide them in a script (`install_packages.jl`), and you can simply install all of them by running the command `julia install_packages.jl`.
+In order to run the simulation, you need to install some required Julia packages - we provide them in a script (`install_packages.jl`), and you can simply install all of them by running the following command in this directory
+```shell
+julia install_packages.jl
+```
 
+**GPU** - If you want to use a NVIDIA GPU for simulation, you need to additionally install `CUDA` and `Adapt` (e.g., you can run `using Pkg; Pkg.add("CUDA"); Pkg.add("Adapt")` in Julia, or just uncomment the last several lines in `install_packages.jl`).
 
 ## Simulation
 
