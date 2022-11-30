@@ -89,7 +89,7 @@ a subset of the simulation data (you can also directly load a pre-trained model 
 trained model, you can generate measurements for any new Rydberg-atom system of the same kind, and predict its phases 
 (Disordered, $Z_2$-ordered, or $Z_3$-ordered). In this tutorial, we use the trained model to predict the entire phase 
 diagram of 1D Rydberg-atom chains (31 atoms), and compare it with the predicted phase diagrams by several kernel 
-methods (introduced by Hsin-Yuan Huang et al. in their [Science 2022](arxiv.org/abs/2106.12627) paper) - you can see 
+methods (introduced by Hsin-Yuan Huang et al. in their [Science 2022](https://arxiv.org/abs/2106.12627) paper) - you can see 
 that the prediction by our method is much more accurate that these kernel methods.
 
 ## **Conditional generative models for 2D anti-ferromagnetic random Heisenberg models**
@@ -186,8 +186,8 @@ Initial release (v1.0): Nov 2022
 
 ## Team
 Current maintainers: 
-+ [Haoxiang Wang](haoxiang-wang.github.io) ([@Haoxiang__Wang](twitter.com/haoxiang__wang), hwang264@illinois.edu), 
-+ [Maurice Weber](mauriceweber.github.io) ([@mauriceweberq](twitter.com/mauriceweberq), maurice.weber@inf.ethz.ch)
++ [Haoxiang Wang](https://haoxiang-wang.github.io) ([@Haoxiang__Wang](https://twitter.com/haoxiang__wang), hwang264@illinois.edu), 
++ [Maurice Weber](https://mauriceweber.github.io) ([@mauriceweberq](https://twitter.com/mauriceweberq), maurice.weber@inf.ethz.ch)
 
 ## License
 

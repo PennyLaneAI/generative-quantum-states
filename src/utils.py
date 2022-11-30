@@ -127,7 +127,7 @@ def plot_phase_diagram(df, figsize=(4.1, 4.5), title=None, train_idxes=None,
     im = np.zeros((len(df), 4))
 
     background_color = marker_colors[0]
-    background_alpha = 0.075
+    background_alpha = 0.1
     channel_colors = np.array([marker_colors[C] for i, C in enumerate([1, 2, 3, ])])
     phases = df['phase'].values
     background_idxes = np.argwhere(phases == 'Disordered').flatten()
