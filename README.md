@@ -1,6 +1,6 @@
 # Predicting Properties of Quantum Systems with Conditional Generative Models
 
-This repo contains the code accompanying the paper "_Predicting Properties of Quantum Systems with Conditional Generative Models_" [[arXiv](XXXX)].
+This repo contains the code accompanying the paper "_Predicting Properties of Quantum Systems with Conditional Generative Models_" [[arXiv](https://arxiv.org/abs/2211.16943)].
 
 ![Our proposed method](resources/figures/workflow.png "Proposed Method")
 
@@ -9,7 +9,7 @@ If you find this repo useful for your research, please consider citing our paper
 @article{cond-generative-quantum-states,
   title={Predicting Properties of Quantum Systems with Conditional Generative Models},
   author={Wang, Haoxiang and Weber, Maurice and Izaac, Josh and Lin, Cedric Yen-Yu},
-  journal={arXiv preprint arXiv:2211.XXXXX},
+  journal={arXiv preprint arXiv:2211.16943},
   year={2022},
 }
 ```
